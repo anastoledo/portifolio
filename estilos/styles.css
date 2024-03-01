@@ -1,0 +1,68 @@
+
+body {
+    color: white; /*tbm poderia ser #ffffff*/
+    background: #F08080;
+    font-family: "Nunito", Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 55px;
+    line-height: 45px ;
+}
+
+h1 strong {
+    color:#dc143c ;
+}
+
+header ul li a {
+    color:aliceblue;
+    text-decoration: dashed;
+    margin-right: 15px;
+
+}
+
+header ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+header ul li {
+    display: inline;
+}
+
+header, main, footer {
+    width: 80%;
+    margin: 0 auto; /* centralizar caixas da página */
+    /*border: dotted yellowgreen;*/
+}
+
+header{
+    background: black;
+    padding: 12px 0 12px 0;
+}
+
+footer {
+    color:#dc143c ;
+}
+
+/* Estilização no layout*/
+
+section {
+    box-sizing: border-box;
+    float: left;
+}
+
+.secao-conteudo {
+    width: 80%;
+
+}
+
+.secao-imagem {
+    width: 20%;
+}
+
+footer{
+    float: left;
+    height: 50px;
+
+}
